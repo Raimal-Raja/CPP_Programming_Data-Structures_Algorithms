@@ -5,6 +5,9 @@ int main(){
     cout<<"Hello Professor";
     cout<<"hello Raimal" <<endl;
     cout<<"hello Raja" <<"\n"; //\n is the slitely faster than endl
-    cout<<'Kolhi\n';
+    cout<<"Kolhi\n";
+
+    // you can print multiple thing in single line in c++
+    cout<<"Hello " <<"Professor " <<"Raimal Raja ";
     return 0;
 }
