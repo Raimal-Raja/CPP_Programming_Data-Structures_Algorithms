@@ -18,7 +18,8 @@ int main(){
         }
     }
 
-    if(!isPrime){
+    // if(!isPrime)
+    if(isPrime =true){
         cout<<"it is a Prime number";
     }
     else{
