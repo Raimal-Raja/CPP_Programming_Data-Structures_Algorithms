@@ -11,6 +11,7 @@ int main(){
     cin >>age;
 
     cout<<(age>=18? "you can vote!": "you can't vote");
+    if(age>=18? "you can vote!": "you can't vote");
 
     return 0;
 }
