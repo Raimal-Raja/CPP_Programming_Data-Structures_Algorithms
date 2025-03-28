@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int binaryNumber(int number){
+int decimalToBinary(int number){
     int binary_number = 0;
+    int power =  1;
 
     while (number>0){
-        int digit =  number%2;
-        binary_number = (binary_number*10)+digit;
+        int rem =  number%2;
         number = int(number/2);
+        binary_number += (rem*power);
+        power *=10;
     }
     return binary_number;
 }
@@ -18,7 +20,7 @@ int main(){
     cout<<"Enter five digit number: ";
     cin>>number;
 
-    cout<<binaryNumber(number);
+    cout<<decimalToBinary(number);
 
     return 0;
 }
