@@ -1,4 +1,5 @@
 // the change in array passed to other function, if you made some changes, it will be refected to the main function
+// name of array in c++ is address of array (it's a pointer)
 # include <iostream>
 using namespace std;
 
