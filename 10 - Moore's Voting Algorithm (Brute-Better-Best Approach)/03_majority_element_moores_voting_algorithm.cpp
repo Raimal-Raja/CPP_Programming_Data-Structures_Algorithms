@@ -18,6 +18,16 @@ int mooresVoting(vector<int>nums){
             freq--;
         }
     }
+
+    // if majority was not given that it always exists
+    // int count = 0;
+    // for(int val: nums){
+    //     if (val == ans){
+    //         count++;
+    //     }
+    // }
+    // if(count> n/2) =>ans
+    // else =>
     return ans;
 }
 
