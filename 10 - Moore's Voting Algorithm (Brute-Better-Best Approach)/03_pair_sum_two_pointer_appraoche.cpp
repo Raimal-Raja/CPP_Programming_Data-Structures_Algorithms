@@ -14,7 +14,6 @@ vector<int> pairSum(vector<int>nums, int target){
         else if (nums[i]+nums[j] < target){
             i++;
         }
-
         else{
             ans.push_back(i);
             ans.push_back(j);

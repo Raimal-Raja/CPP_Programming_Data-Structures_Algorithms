@@ -8,10 +8,12 @@ vector<int>maxSum(vector<int>nums){
     int ans = INT_MIN;
     for(int i = 0; i<n; i++){
         for(int j = i; j<n; j++){
-            if(nums[i]+nums[j] ==ans){
+            if(nums[i]+nums[j] >ans){
                 ans = nums[i]+nums[j];
-                return ans;
+                
             }
         }
+        return vector<int>ans;
+
     }
 }
