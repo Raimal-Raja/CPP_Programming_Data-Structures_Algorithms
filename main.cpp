@@ -44,7 +44,7 @@ using namespace std;
 
 // print
 
-int main(){
+// int main(){
 
-    cout<<(((int []){1,2,3,4})[1]);
-}
+//     cout<<(((int []){1,2,3,4})[1]);
+// }
