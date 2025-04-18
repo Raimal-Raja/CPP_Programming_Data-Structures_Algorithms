@@ -20,7 +20,7 @@ vector<int>sumTwoArr(vector<int>nums){
 }
 
 int main(){
-    vector<int>nums = {2,3,4,5,5,6,7};
+    vector<int>nums = {1,2,3,4};
     vector<int>ans = sumTwoArr(nums);
     for (int i = 0; i < ans.size(); i++)
     {
