@@ -1,3 +1,6 @@
+// time complexity = O(logn)
+// space complexity = O(logn)
+
 #include <iostream>
 #include <vector>
 using namespace std;
