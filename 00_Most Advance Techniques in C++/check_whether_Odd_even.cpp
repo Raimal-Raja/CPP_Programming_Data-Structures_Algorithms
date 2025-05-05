@@ -7,7 +7,7 @@ int main(){
     if(num&1){
         cout<<"Odd"<<endl;
     }
-    
+
     else{
     cout<<"even"<<endl;
     return 0;
