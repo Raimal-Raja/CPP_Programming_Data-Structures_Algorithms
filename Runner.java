@@ -34,14 +34,24 @@ public class Runner {
 
 // check odd and even
 
+// public static void main(String[] args) {
+//     int  n = 5;
+//     if(n & 1){
+//         System.out.println("odd");
+//     }
+//     else{
+//         System.out.println("even");
+//     }
+// }
+
+static boolean isPowerOfTwo(int n){
+    return (n>0 && (n&(n-1)) ==0);
+}
+
 public static void main(String[] args) {
-    int  n = 5;
-    if(n & 1){
-        System.out.println("odd");
-    }
-    else{
-        System.out.println("even");
-    }
+    int n = 3;
+    boolean b = isPowerOfTwo(n);
+    System.out.println(b);
 }
 
 }
