@@ -3,20 +3,20 @@
 using namespace std;
 
 bool isValid(vector<int>&arr, int n, int m, int maxAllowedPage){
-    int student = 0, pages = 0;
+    int student = 1, pages = 0;
     for(int i = 0; i<n;i++){
         if(arr[i]>maxAllowedPage){
             return false;
         }
         if(pages+arr[i]<= maxAllowedPage){
-            pages <=arr[i];
+            pages += arr[i];
         }
         else{
             student ++;
             pages = arr[i];
         }
     }
-    return student > n ? false:true;
+    return student > m ? false:true;
 }
 
 
