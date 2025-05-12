@@ -1,8 +1,4 @@
-Here’s a comprehensive and detailed `README.md` file for the GitHub repository [CPP\_Programming\_Data-Structures\_Algorithms](https://github.com/Raimal-Raja/CPP_Programming_Data-Structures_Algorithms), which aligns with the YouTube playlist [Complete C++ DSA Course](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt).
-
----
-
-# 📘 CPP Programming, Data Structures & Algorithms
+# 📘 C++ Programming, Data Structures & Algorithms
 
 This repository serves as a comprehensive guide to mastering C++ programming, data structures, and algorithms. It is structured to complement the [Complete C++ DSA Course](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt) by [Apna College](https://www.youtube.com/@ApnaCollegeOfficial), providing code implementations, problem-solving techniques, and detailed explanations.
 
