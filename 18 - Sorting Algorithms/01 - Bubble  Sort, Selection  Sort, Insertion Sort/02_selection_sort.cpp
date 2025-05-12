@@ -1,0 +1,1 @@
+// array of  half side sorted element
