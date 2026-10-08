@@ -2,9 +2,9 @@
 
 C and C++ practice examples covering arrays, pointers, binary search, sorting, and interview-style algorithms.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [00_Advance Problems in C](00_Advance%20Problems%20in%20C)
 - [00_Most Advance Techniques in C++](00_Most%20Advance%20Techniques%20in%20C%2B%2B)
@@ -42,6 +42,8 @@ The JDK was unavailable for compilation checks in this review.
 
 ### Configuration and limitations
 
+Compile individual examples with GCC or G++. Use C++17 for examples using modern library helpers; multiple source files define their own main function.
+
 ### Maintenance fixes
 
 - Fix 12 compilation failures from missing headers, namespace typos, invalid calls, and unfinished examples.
@@ -49,7 +51,11 @@ The JDK was unavailable for compilation checks in this review.
 
 ### Validation
 
-Reviewed on 2026-10-08. All 135 C++ source files passed g++ syntax checks using C++17 after compilation fixes. This does not prove algorithm correctness.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 147 C/C++ files passed compiler syntax checks. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
