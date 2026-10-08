@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace sdt;
+using namespace std;
 
-void sawpUsingXOR(int &a, int &b){
+void swapUsingXOR(int &a, int &b){
     a = a^b;
     b = a^b;
     a = a^b; 
@@ -11,5 +11,6 @@ int main(){
     int a = 1;
     int b = 3;
 
-    cout<<swapUsingXOR();
+    swapUsingXOR(a, b);
+    cout << a << " " << b << "\n";
 }

@@ -1,19 +1,16 @@
 #include <iostream>
-using namespace sdt;
+#include <string>
+#include <utility>
+using namespace std;
 
-void reverseString(char[] s){
-    int l = 0; r.lenth -1;
-    while(l<r){
-        char temp = s[l];
-        s[l] = s[r];
-        s[r] = temp;
-        l++;
-        r--;
-    }
+void reverseString(string& text) {
+    if (text.empty()) return;
+    size_t left = 0, right = text.size() - 1;
+    while (left < right) swap(text[left++], text[right--]);
 }
 
-int main(){
-    char []s = {'H', 'E', 'L', 'L', 'O'};
-
-    cout<<reverseString(s);
-}s
+int main() {
+    string text = "HELLO";
+    reverseString(text);
+    cout << text << "\n";
+}

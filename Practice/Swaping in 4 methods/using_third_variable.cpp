@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace sdt;
+using namespace std;
 
 void swapNumbers(int &a, int &b){
     int temp = a;
@@ -13,6 +13,7 @@ int main(){
     int a = 1;
     int b = 3;
 
-    cout<<swapNumbers(&a, &b);
+    swapNumbers(a, b);
+    cout << a << " " << b << "\n";
 
 }

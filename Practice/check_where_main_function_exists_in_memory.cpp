@@ -1,7 +1,7 @@
-#include <isotream>
-using namespace sdt;
+#include <iostream>
+using namespace std;
 
 int main(){
-    cout<<"%p\n", (void*)main;
+    cout << reinterpret_cast<void*>(main) << "\n";
     return 0;
 }
